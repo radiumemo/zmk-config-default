@@ -1,0 +1,3 @@
+&kscan {
+    diode-direction = "col2row";
+};
