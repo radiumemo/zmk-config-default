@@ -172,9 +172,9 @@
         base_layer {
             display-name = "base";
             bindings = <
-&trans  &kp B           &kp L          &kp D           &kp C            &kp V             &kp J        &kp Y                 &kp O           &kp U          &comma_morph    &trans
-&trans  &hrm_l LMETA N  &hrm_l LALT R  &hrm_l LSHFT T  &hrm_l LCTRL S   &kp G             &kp P        &hrm_r LCTRL H        &hrm_r RSHFT A  &hrm_r LALT E  &hrm_r LMETA I  &trans
-        &kp X           &kp Q          &kp M           &kp W            &kp Z             &kp K        &kp F                 &kp SQT         &qexcl         &dot_morph
+&trans  &kp Q           &kp W          &kp E           &kp R            &kp T             &kp Y        &kp U                 &kp I           &kp O          &kp P           &trans
+&trans  &hrm_l LMETA A  &hrm_l LALT S  &hrm_l LSHFT D  &hrm_l LCTRL F   &kp G             &kp H        &hrm_r LCTRL J        &hrm_r RSHFT K  &hrm_r LALT L  &hrm_r LMETA SEMI  &trans
+        &kp Z           &kp X          &kp C           &kp V            &kp B             &kp N        &kp M                 &comma_morph    &dot_morph     &kp FSLH
                         &kp C_MUTE     &kp DEL         &bksp_esc_morph  &lt SYMBOL SPACE  &lt 2 ENTER  &magic_shift LSHFT 0  &kp TAB         &td_to_game
             >;
 
