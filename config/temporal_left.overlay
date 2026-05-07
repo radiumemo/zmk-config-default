@@ -1,5 +1,3 @@
-#include "boards/shields/temporal/temporal.dtsi"
-
 &kscan0 {
     diode-direction = "row2col";
     col-gpios
