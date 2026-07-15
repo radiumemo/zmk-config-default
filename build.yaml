@@ -1,12 +1,19 @@
 ---
 include:
+  # The physical Left Half (now demoted to a peripheral)
   - board: nice_nano_v2
     shield: temporal_left
     artifact-name: temporal_left
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+
+  # The physical Right Half (peripheral by default)
   - board: nice_nano_v2
     shield: temporal_right
     artifact-name: temporal_right
-  - board: nice_nano_v2
-    shield: temporal_dongle
-    artifact-name: temporal_dongle
+    cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
+  # The Dongle (Uses the left shield's layout, but acts as the central brain for 2 halves)
+  - board: nice_nano_v2
+    shield: temporal_left
+    artifact-name: temporal_dongle
+    cmake-args: -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS=2
